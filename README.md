@@ -20,3 +20,5 @@ The project consists of the following steps:
     Files: cap_word.py, gword.js, gword.htm, d3.layout.cloud.js, d3.v2.js
 
     Note: This section includes a word cloud visualization template provided by the Coursera instructor whom I took my Python classes under.
+   
+An image of the word cloud visualization can be found in the file Capstone word cloud.jpg
