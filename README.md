@@ -17,6 +17,6 @@ The project consists of the following steps:
 
 3. Build a word cloud visualization of places where the food products were made in. The bigger the word, the more common the place of manufacturing. Once done, open gword.htm to view visualization.
 
-    Files: cap_word.py, gword.js, gword.htm
+    Files: cap_word.py, gword.js, gword.htm, d3.layout.cloud.js, d3.v2.js
 
     Note: This section includes a word cloud visualization template provided by the Coursera instructor whom I took my Python classes under.
