@@ -14,3 +14,9 @@ Files: cap_ret.py
 2. Rank allergens in food products by the number of products that include them
 
 Files: cap_dump.py
+
+3. Build a word cloud visualization of places where the food products were made in. The bigger the word, the more common the place of manufacturing.
+
+Files: cap_word.py
+
+Note: This section includes a word cloud visualization template provided by the Coursera instructor whom I took my Python classes under.
