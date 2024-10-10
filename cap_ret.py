@@ -160,12 +160,12 @@ for dict in js['products']:
         continue
     for all in allergens_tags:
             #Parse allergen and insert into SQLite allergens table
-            if re.search('^[A-Za-z]{2}\:', all):
+            if re.search('^[A-Za-z]{2}:', all):
                 allergen = all[3:]
             else:
                 allergen = all
 
-            #Check if allergen already exists in allregens table. If yes, only insert into connectors table. If no, insert into Allergens table AND connectors table
+            #Check if allergen already exists in allergens table. If yes, only insert into connectors table. If no, insert into Allergens table AND connectors table
             cur.execute('SELECT allergen FROM Allergens WHERE allergen = ? ', (allergen, ))
 
             row = cur.fetchone()
